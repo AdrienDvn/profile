@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 24px;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  line-height: 30px;
+  display: block;
+}
+
+h2 {
+  color: #7ECE90;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+    /* display: block; */
+    padding: 20px;
+    text-align: center;
+    width: auto;
+    display: inline block;
+    margin-top: 30px;
+}
+
+a:hover {
+  font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(96, 91, 91);
+    font-weight: 600;
+    font-size: 16px;
+    /* display: block; */
+}
+
+i {
+  font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+    display: inline block;
+}
+
+i:hover {
+    color: rgb(96, 91, 91);
+}
+
+.container{
+ margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 8px;
+  margin: 30px 30px;
+  text-align: center;
+  /* margin: 0 auto; */
+}
+.card-white {
+background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 30px 30px;
+    text-align: center;
+}
+
+#img_circle {
+    /* width: 150px;
+    height: 150px; */
+    border-radius: 50%;
+  }
+
+img {
+  width: 150px;
+  height: 160px;
+  object-fit: cover;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 0px;
+}
+
+.list-inline {
+  padding: 0px 0px;
+}
+
+.fa-brands {
+ font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
